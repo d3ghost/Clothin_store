@@ -1,0 +1,125 @@
+body{
+    margin-top: 52px;
+}
+
+.catg{
+    margin: 0px 5px 0px 5px;
+}
+
+/*.catg .col-md-3{
+    border: 2px solid #a4aaae;
+}*/
+
+.catg > .col-md-3{
+    padding-left: 100px;
+}
+
+.catg .col-md-3 .nav-pills{
+    margin-left: 20px;
+}
+
+.carousel-inner{
+    height: 650px;
+}
+
+.carousel-inner img{
+    width: 1000px;
+}
+
+.catg > .col-md-8{
+    background-color: white;
+}
+
+.products{
+    background-color: white;
+    /*border: 2px solid red;*/
+    margin: 5px 5px 26px 5px;
+}
+
+.products > .col-md-3{
+    /*border: 2px solid goldenrod;*/
+    height: 300px;
+}
+
+.products > .col-md-3 img{
+    height: 250px;
+    /*border: 2px solid darkmagenta;*/
+}
+
+.products > .col-md-3 > a > .thumbnail{
+    border: 0px;
+    height: 200px;
+    background-color: white;
+}
+
+/*.products > .col-md-3 caption{
+    text-align: center;
+    border: 2px solid red;
+}*/
+
+.caption{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    color: #fff;
+}
+
+.navbar-right .navbar-form #search{
+    width: 500px;
+    /*border: 2px solid red;*/
+    display: none;
+}
+
+.search-btn{
+    border-radius: 20px;
+    position: absolute;
+    top: 4px;
+    /*border: 2px solid green;*/
+    transform: rotate(0deg);
+    transition: border 2s,transform 1s;
+    right: 8.5px;
+}
+
+.search-btn:hover{
+    transform: rotate(360deg);
+    /*border: 2px solid red;*/
+}
+
+.navbar-right .navbar-form{
+    margin-right: 20px;
+}
+
+.navbar-right li + li span{
+    margin-top: -10px;
+}
+
+.side-menu .nav-pills + .nav-pills{
+    margin-top: 200px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .products > .col-md-3 > a > .thumbnail caption{
+        text-align: center;
+        border: 2px solid red;
+    }
+
+    .carousel-inner img{
+        width: 1200px;
+        border: #0d3625;
+        margin: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .catg > .col-md-3{
+        position: fixed;
+        width: 24.7%;
+    }
+
+    .catg > .col-md-8{
+        margin-left: 380px;
+        /*border: 2px solid peru;*/
+        padding: 0px;
+    }
+}

@@ -1,0 +1,172 @@
+.main{
+    padding: 0px;
+}
+
+.navbar{
+    background-color: #122b40;
+    border-radius: 0px;
+}
+
+.navbar a{
+    color: #e7e7e7;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-column .links li{
+    list-style-type: none;
+    margin: 10px 0px;
+}
+
+.nav-column .navbar{
+    height: inherit;
+}
+
+.nav-column .links li #contacts li{
+    margin: 10px;
+}
+
+.nav-column .links li a:hover{
+    text-decoration: none;
+}
+
+.navbar .nav-brand:hover{
+    text-decoration: none;
+}
+
+.main > .col-md-9 .forms .btn{
+    margin-top: 64.5px;
+    background-color: #122b40;
+    color: #e7e7e7;
+}
+
+.container-fluid {
+    color: #122b40;
+    padding: 100px;
+}
+
+.text-right a:link,.text-right a:visited,.text-right a:hover,.text-right a:active{
+    text-decoration: none !important;
+    color: #122b40;
+}
+
+.col-md-9 .nav-post{
+    background-color: inherit;
+    border: 0.1px solid #a4aaae;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*Media Queries for mobile phone view*/
+@media only screen and (max-width: 768px){
+    .nav-column{
+        max-height: 50px;
+        height: 50px;
+        position: static;
+    }
+
+    .nav-column .navbar{
+        max-height: inherit;
+        height: inherit;
+    }
+
+    .nav-column .navbar-collapse{
+        max-height: 300px;
+        background-color: #e7e7e7;
+        position: relative;
+        z-index: 1000;
+        margin-top: -7px;
+    }
+
+    .navbar .brand-sm{
+        color: white;
+    }
+
+    .navbar a{
+        color: #3c3c3c;
+    }
+
+    .navbar-toggle{
+        border: 0px;
+    }
+
+    .navbar-toggle:link{
+        background-color: inherit !important;
+    }
+
+    .navbar-toggle:hover{
+        background-color: inherit !important;
+    }
+
+    .navbar-toggle:visited{
+        background-color: inherit !important;
+    }
+
+    .navbar-toggle:active{
+        background-color: inherit !important;
+    }
+
+    .main{
+        margin: 0px 2px;
+    }
+}
+
+/*Media Queries for desktop view*/
+/*@media only screen and (max-width: ){
+
+}*/
+
+@media only screen and (min-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-column{
+        height: 768.4px;
+        padding: 0px;
+        position: fixed;
+        max-width: 326px;
+    }
+
+    .nav-column .navbar{
+        height: inherit;
+    }
+
+    .nav-column .links{
+        margin-top: 80px;
+    }
+
+    .main > .col-md-9{
+        margin-left: 326.5px;
+        width: 78.2%;
+        padding: 10px;
+    }
+
+    .col-md-9{
+        border: 0.1px solid #a4aaae;
+    }
+
+    .nav-column .links li a:link{
+        background-color: inherit;
+    }
+
+    .nav-column .links li a:hover{
+        background-color: inherit !important;
+    }
+
+    .nav-column .links li a:visited{
+        background-color: inherit !important;
+    }
+
+    .nav-column .links li a:active{
+        background-color: inherit !important;
+    }
+
+    .col-md-9 .nav-post{
+        background-color: inherit;
+        border: 0.1px solid #a4aaae;
+        width: 1150px;
+        margin-left: 372px;
+        padding: 10px;
+    }
+}
